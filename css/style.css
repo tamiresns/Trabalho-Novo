@@ -1,0 +1,267 @@
+/*header*/
+
+#div_esquerda {
+    height: 7em;
+    background-color: #25A9E2;
+}
+
+#div_direita {
+    height: 7em;
+    background-color: #23C0F0;
+}
+
+/*conteudo*/
+.oprograma {
+    border-bottom: #00AEEF solid 1rem;
+    border-top: #211D70 solid 1rem;
+}
+
+h1 {
+    color: #027AD6;
+    letter-spacing: 1rem;
+
+}
+
+/*resultados*/
+
+.resultados {
+    background-color: #012D52;
+    height: 100%;
+}
+
+.resultados>p {
+    color: white;
+}
+
+h3 {
+    color: #00AEEF;
+}
+
+#img-tn {
+    text-align: center;
+}
+
+strong {
+    font-size: 1.5rem;
+    color: #00AEEF;
+}
+
+p {
+    font-size: 18px;
+}
+
+/*acordeon*/
+
+.mb-0 button {
+    color: #fff;
+    font-weight: bold;
+    height: 60px;
+    font-size: 1.50rem;
+    letter-spacing: 5px;
+    text-decoration: none !important;
+
+}
+
+button:hover{
+    color: white !important
+}
+
+
+.card-body {
+    font-size: 15px;
+    margin: 0 20px 0 20px;
+
+}
+
+h2 {
+    color: #027AD6;
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+
+#headingOne {
+    background-color: #00AEEF;
+    color: white;
+    text-align: center;
+}
+
+#headingTwo {
+    background-color: #04BEF2;
+    text-align: center;
+}
+
+#headingThree {
+    background-color: #00AEEF;
+    text-align: center;
+}
+
+button:link {
+    text-decoration: none;
+}
+
+/*carrosel*/
+
+.carousel {
+    height: 540px;
+    background-color: #0260AC;
+}
+
+.carousel>h4 {
+    letter-spacing: 5px;
+    color: white;
+    font-size: 2rem;
+}
+
+/*overlay*/
+
+.container-over {
+    background-color: #012D52;
+    text-align: center;
+}
+
+.container-overlay:hover .item-overlay.top {
+    top: 15px;
+}
+
+.container-overlay:hover .item-overlay.bottom {
+    bottom: 0;
+}
+
+.item-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    -moz-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+    -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+    transition: top 0.3s, bottom 0.3s;
+
+}
+
+.item-overlay.top {
+    top: 100%;
+    font-size: 13px;
+    bottom: 15px;
+}
+
+.item-overlay.bottom {
+    bottom: 100%;
+}
+
+.container-overlay {
+    position: relative;
+    overflow: hidden;
+    max-width: 540px;
+
+}
+
+
+.item-overlay p {
+    font-size: 15px;
+}
+
+h5 {
+    letter-spacing: 3px;
+}
+
+/*final*/
+
+#headingFour {
+    background-color: #00AEEF;
+    color: white;
+    text-align: center;
+
+}
+
+.card-body-final {
+    background-color: black;
+    font-size: 14px;
+    color: white;
+
+}
+.btn{
+    white-space: normal !important;
+}
+
+.img-final{
+    width: 18rem;
+}
+
+footer{
+    border-top: #012D52 solid 25px;
+}
+
+.text-center{
+    font-size: 14px;
+
+}
+
+/*xs*/
+@media (max-width: 575px) {
+    .mb-0 button {
+        font-size: 15px;
+        letter-spacing: normal;
+    }
+
+    h1 {
+        letter-spacing: normal;
+    }
+
+    .card-header {
+        height: 70px;
+    }
+
+    .item-overlay p {
+        font-size: 15px;
+    }
+
+    .container-overlay:hover .item-overlay.top {
+        top: 15px;
+        bottom: 15px;
+    }
+
+    .carousel {
+        height: 360px;
+    }
+
+    .carousel>h4 {
+        letter-spacing: 5px;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .mb-0 button {
+        color: #fff;
+        height: 60px;
+        letter-spacing: normal;
+        font-size: 12px;
+
+    }
+
+
+}
+
+
+/* Dispositivos médios (tablets com menos de 992px)*/
+@media (max-width: 991.98px) {
+    .mb-0 button {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .carousel {
+        height: 360px;
+    }
+
+}
+
+/*Dispositivos small (telefones em modo paisagem, com menos de 768px)
+@media (max-width: 767.98px) { 
+    .mb-0 button {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+ }*/
